@@ -1,0 +1,12 @@
+[
+    {
+        "university": "University of Waterloo",
+        "name": "Research Assistant",
+        "desc": "RA for the CS Faculty"
+    }, 
+    {
+        "university": "MIT",
+        "name": "Teaching Assistant",
+        "desc": "TA in Physics"
+    }
+]

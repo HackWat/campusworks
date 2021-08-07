@@ -6,15 +6,17 @@ import Banner from "./components/homepage/Banner";
 import Content from "./components/homepage/Content";
 import Founders from "./components/homepage/Founders";
 import Footer from "./components/allpages/Footer";
+import Joblistings from "./components/joblistings/Joblistings";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar />
       <Banner />
       <Content />
       <Founders />
-      <Footer />
+      <Footer /> */}
+      <Joblistings />
     </div>
   );
 }
