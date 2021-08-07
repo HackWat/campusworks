@@ -43,3 +43,37 @@ a {
 a:hover {
     font-size: 105%;
 }
+
+.footer {
+    color: #000;
+    background-color: #fff;
+    width: 95%;
+    border-radius: 20px 20px 0px 0px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.social-media {
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social-media > a{
+    cursor: pointer;
+    padding: 10px;
+}
+
+.instagram > svg:hover {
+    fill: #ce31a7;
+}
+
+.twitter > svg:hover {
+    fill: #32AAE8;
+}
+
+.facebook > svg:hover {
+    fill: #1a3c77;
+}

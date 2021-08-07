@@ -5,6 +5,7 @@ import Navbar from "./components/allpages/Navbar";
 import Banner from "./components/homepage/Banner";
 import Content from "./components/homepage/Content";
 import Founders from "./components/homepage/Founders";
+import Footer from "./components/allpages/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Banner />
       <Content />
       <Founders />
+      <Footer />
     </div>
   );
 }
