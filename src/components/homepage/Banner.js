@@ -1,5 +1,6 @@
 import React from 'react'
 import './homepage.css'
+import { Link } from 'react-router-dom'
 
 function Banner() {
     return (
@@ -11,8 +12,12 @@ function Banner() {
                 <p className="desc">
                     Occaecat amet enim eu esse qui. Dolor culpa sit do anim sit enim incididunt commodo est. Ad aliquip laborum voluptate esse esse duis duis nulla labore enim enim nostrud labore. Tempor laboris sint id officia et deserunt cupidatat in quis sint ut nisi officia mollit.
                 </p>
-                <button className="btn btn-primary btn-lg mx-2 my-2">Look for jobs</button>
-                <button className="btn btn-outline-info btn-lg mx-2">Recruit people?</button>
+                <button className="btn btn-info btn-lg mx-2 my-2">
+                    <Link to ="/jobs">Look for Jobs</Link>
+                </button>
+                <button className="btn btn-outline-info btn-lg mx-2">
+                    <Link to ="/form">Recruit people?</Link>
+                </button>
             </div>
         </div>
     )

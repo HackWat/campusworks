@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -46,7 +47,7 @@ function Navbar() {
           </ul>
           <span className="navbar-btn">
             <button className="btn btn-outline-info">
-              Search now!
+              <Link to="/jobs">Search Now!</Link>
             </button>
           </span>
         </div>
