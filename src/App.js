@@ -9,6 +9,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Form from "./components/form/Form";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         <Switch>
           <Route path="/jobs">
             <Joblistings />
+          </Route>
+          <Route path="/form">
+            <Form />
           </Route>
           <Route path="/">
             <Home />

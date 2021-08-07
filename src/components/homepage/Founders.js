@@ -3,7 +3,7 @@ import "./homepage.css";
 
 function Founders() {
   return (
-    <div className="container-fluid my-3">
+    <div className="container-fluid my-3 text-dark">
       <div classname="row heading text-left">
         <h2 className="ml-5 text-light">FOUNDERS</h2>
       </div>

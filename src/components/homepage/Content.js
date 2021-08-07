@@ -2,7 +2,7 @@ import React from 'react'
 
 function Content() {
     return (
-        <div className="container-fluid content p-5">
+        <div className="container-fluid content p-5 text-dark">
             <div className="row text-left">
                 <div className="col-lg-6 text-left my-3 heading">
                     <h3 className="ml-5">
