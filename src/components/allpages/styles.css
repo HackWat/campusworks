@@ -1,0 +1,45 @@
+/* .navbar {
+    background-color: #03265B;
+} */
+
+.navbar-nav {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    /* 
+    if we did this instead of the template it would be a problem:
+    grid-auto-flow: column;
+    */
+    font: 120% system-ui;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+.container{
+    background-color: #fff !important;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.navbar-brand img{
+    width: 100px;
+    height: 100px;
+}
+
+.btn-outline-info:hover {
+    color: white;
+}
+
+.navbar-btn {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none !important;
+    color: #000;
+    /* margin: 0 10px; */
+    transition: all 0.25s;
+}
+
+a:hover {
+    font-size: 105%;
+}

@@ -1,0 +1,34 @@
+.banner {
+  width: 60%;
+}
+
+.desc {
+  font-size: 1.2rem;
+}
+
+.content {
+  background-color: #fff;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.heading {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.card {
+  border-radius: 20px;
+  box-shadow: rgb(227 227 227 / 30%) 0px 26px 30px -10px,
+    rgb(227 227 227/ 40%) 0px 16px 10px -10px;
+}
+
+.card:hover {
+  box-shadow: rgb(227 227 227 / 60%) 0px 40px 50px -10px,
+    rgb(227 227 227 / 50%) 0px 30px 22px -10px;
+  transform: scale(1.01);
+  border-color: rgb(249, 249, 249, 0.8);
+}
+
+.viewers {
+    margin-left: 70px;
+}

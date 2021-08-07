@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="381" height="86" viewBox="0 0 381 86">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1494" data-name="Rectangle 1494" width="381" height="86" transform="translate(-13675 -10777)" fill="#f5f5f5"/>
+    </clipPath>
+  </defs>
+  <g id="TOPICS_P" data-name="TOPICS P" transform="translate(13675 10777)" clip-path="url(#clip-path)">
+    <g id="Group_217" data-name="Group 217" transform="translate(-13652.224 -10757)">
+      <g id="Group_214" data-name="Group 214">
+        <rect id="Rectangle_1484" data-name="Rectangle 1484" width="143.851" height="46" rx="6" transform="translate(0.224)" fill="#e8e8e8"/>
+        <text id="FINANCE" transform="translate(72.223 27)" fill="#8779b5" font-size="12" font-family="SegoeUI, Segoe UI" letter-spacing="0.03em"><tspan x="-25.203" y="0">FINANCE</tspan></text>
+      </g>
+      <g id="Group_215" data-name="Group 215" transform="translate(155.838)">
+        <rect id="Rectangle_1484-2" data-name="Rectangle 1484" width="164.229" height="46" rx="6" transform="translate(0.386)" fill="#e8e8e8"/>
+        <text id="CARRER" transform="translate(82.386 27)" fill="#8779b5" font-size="12" font-family="SegoeUI, Segoe UI" letter-spacing="0.03em"><tspan x="-22.287" y="0">CARRER</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
