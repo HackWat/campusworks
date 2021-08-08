@@ -1,0 +1,8 @@
+#app.yaml
+runtime: python37
+
+env_variables:
+  CLOUD_SQL_USERNAME: root
+  CLOUD_SQL_PASSWORD: hackathon
+  CLOUD_SQL_DATABASE_NAME: songs
+  CLOUD_SQL_CONNECTION_NAME: coherent-code-322215:us-central1:hackathon
