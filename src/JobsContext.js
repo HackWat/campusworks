@@ -7,7 +7,7 @@ export const JobsContextProvider = (props) => {
     const [data, setData] = useState()
 
     useEffect(() =>{
-        fetch("../jobs.json").then(result =>{
+        fetch("http://127.0.0.1:5000/job").then(result =>{
             result.json().then((resp)=>{setData(resp)})},[])
             console.warn(data);
         }, [])

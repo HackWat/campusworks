@@ -10,6 +10,7 @@ import {
   Link
 } from "react-router-dom";
 import Form from "./components/form/Form";
+import { FormNewJob } from "./components/form/FormNewJob";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
             <Joblistings />
           </Route>
           <Route path="/form">
-            <Form />
+            <FormNewJob />
           </Route>
           <Route path="/">
             <Home />

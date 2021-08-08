@@ -53,6 +53,14 @@ a:hover {
     height: 60px;
     margin: 0 auto;
     text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    padding-left: 20px;
 }
 
 .social-media {
