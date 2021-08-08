@@ -1,3 +1,3 @@
-# collegeworks
+# CampusWorks
 
-This is a project for the hackathon
+This is a project for the hackathon Xhacks
